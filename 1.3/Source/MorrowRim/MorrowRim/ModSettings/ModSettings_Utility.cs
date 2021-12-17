@@ -36,6 +36,17 @@ namespace MorrowRim
             return LoadedModManager.GetMod<MorrowRim_Mod>().GetSettings<MorrowRim_ModSettings>().MorrowRim_SettingKwamaEnableTrojanHostile;
         }
 
+        public static bool MorrowRim_SettingKwamaNestReproducing()
+        {
+            return LoadedModManager.GetMod<MorrowRim_Mod>().GetSettings<MorrowRim_ModSettings>().MorrowRim_SettingKwamaNestReproducing;
+        }
+
+        public static bool MorrowRim_SettingKwamaMining()
+        {
+            return LoadedModManager.GetMod<MorrowRim_Mod>().GetSettings<MorrowRim_ModSettings>().MorrowRim_SettingKwamaMining;
+        }
+
+        /* */
 
         public static bool MorrowRim_SettingEnableKwamaNestEmerging()
         {

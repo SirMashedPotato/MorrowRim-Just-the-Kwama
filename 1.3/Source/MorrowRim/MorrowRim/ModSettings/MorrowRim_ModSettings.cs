@@ -12,6 +12,9 @@ namespace MorrowRim
         public bool MorrowRim_SettingKwamaEnableGen = MorrowRim_SettingKwamaEnableGen_def;
         public bool MorrowRim_SettingEnablePredatorAvoidKwama = MorrowRim_SettingEnablePredatorAvoidKwama_def;
         public bool MorrowRim_SettingKwamaEnableTrojanHostile = MorrowRim_SettingKwamaEnableTrojanHostile_def;
+        public bool MorrowRim_SettingKwamaNestReproducing = MorrowRim_SettingKwamaNestReproducing_def;
+        public bool MorrowRim_SettingKwamaMining = MorrowRim_SettingKwamaMining_def;
+
         public bool MorrowRim_SettingEnableKwamaNestEmerging = MorrowRim_SettingEnableKwamaNestEmerging_def;
         public bool MorrowRim_SettingEnableKwamaTrojanInfestation = MorrowRim_SettingEnableKwamaTrojanInfestation_def;
 
@@ -24,6 +27,9 @@ namespace MorrowRim
         private static readonly bool MorrowRim_SettingKwamaEnableGen_def = true;
         private static readonly bool MorrowRim_SettingEnablePredatorAvoidKwama_def = true;
         private static readonly bool MorrowRim_SettingKwamaEnableTrojanHostile_def = true;
+        private static readonly bool MorrowRim_SettingKwamaNestReproducing_def = true;
+        private static readonly bool MorrowRim_SettingKwamaMining_def = true;
+
         private static readonly bool MorrowRim_SettingEnableKwamaNestEmerging_def = true;
         private static readonly bool MorrowRim_SettingEnableKwamaTrojanInfestation_def = true;
 
@@ -37,6 +43,9 @@ namespace MorrowRim
             Scribe_Values.Look(ref MorrowRim_SettingKwamaEnableGen, "MorrowRim_SettingKwamaEnableGen", MorrowRim_SettingKwamaEnableGen_def);
             Scribe_Values.Look(ref MorrowRim_SettingEnablePredatorAvoidKwama, "MorrowRim_SettingEnablePredatorAvoidKwama", MorrowRim_SettingEnablePredatorAvoidKwama_def);
             Scribe_Values.Look(ref MorrowRim_SettingKwamaEnableTrojanHostile, "MorrowRim_SettingKwamaEnableTrojanHostile", MorrowRim_SettingKwamaEnableTrojanHostile_def);
+            Scribe_Values.Look(ref MorrowRim_SettingKwamaNestReproducing, "MorrowRim_SettingKwamaNestReproducing", MorrowRim_SettingKwamaNestReproducing_def);
+            Scribe_Values.Look(ref MorrowRim_SettingKwamaMining, "MorrowRim_SettingKwamaMining", MorrowRim_SettingKwamaMining_def);
+
             Scribe_Values.Look(ref MorrowRim_SettingEnableKwamaNestEmerging, "MorrowRim_SettingEnableKwamaNestEmerging", MorrowRim_SettingEnableKwamaNestEmerging_def);
             Scribe_Values.Look(ref MorrowRim_SettingEnableKwamaTrojanInfestation, "MorrowRim_SettingEnableKwamaTrojanInfestation", MorrowRim_SettingEnableKwamaTrojanInfestation_def);
 
@@ -53,6 +62,9 @@ namespace MorrowRim
             settings.MorrowRim_SettingKwamaEnableGen = MorrowRim_SettingKwamaEnableGen_def;
             settings.MorrowRim_SettingEnablePredatorAvoidKwama = MorrowRim_SettingEnablePredatorAvoidKwama_def;
             settings.MorrowRim_SettingKwamaEnableTrojanHostile = MorrowRim_SettingKwamaEnableTrojanHostile_def;
+            settings.MorrowRim_SettingKwamaNestReproducing = MorrowRim_SettingKwamaNestReproducing_def;
+            settings.MorrowRim_SettingKwamaMining = MorrowRim_SettingKwamaMining_def;
+
             settings.MorrowRim_SettingEnableKwamaNestEmerging = MorrowRim_SettingEnableKwamaNestEmerging_def;
             settings.MorrowRim_SettingEnableKwamaTrojanInfestation = MorrowRim_SettingEnableKwamaTrojanInfestation_def;
         }

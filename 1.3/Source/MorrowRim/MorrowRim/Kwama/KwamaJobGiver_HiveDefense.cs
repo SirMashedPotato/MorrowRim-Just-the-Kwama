@@ -5,8 +5,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class KwamaJobGiver_HiveDefense : JobGiver_AIFightEnemies
-    {
+	public class KwamaJobGiver_HiveDefense : JobGiver_AIFightEnemies
+	{
 		// Token: 0x06002D6B RID: 11627 RVA: 0x000FF304 File Offset: 0x000FD504
 		protected override IntVec3 GetFlagPosition(Pawn pawn)
 		{

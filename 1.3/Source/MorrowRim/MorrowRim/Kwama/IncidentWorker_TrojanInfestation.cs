@@ -15,7 +15,7 @@ namespace MorrowRim.Kwama
 		{
 			Map map = (Map)parms.target;
 			IntVec3 intVec;
-			return base.CanFireNowSub(parms) && ModSettings_Utility.MorrowRim_SettingEnableKwamaTrojanInfestation() 
+			return base.CanFireNowSub(parms) && ModSettings_Utility.MorrowRim_SettingEnableKwamaTrojanInfestation()
 				&& FactionUtility.DefaultFactionFrom(RimWorld.FactionDefOf.Insect) != null
 				&& KwamaNestUtility.TotalSpawnedHivesCount_NotFogged(map) > 0;
 		}
@@ -24,7 +24,7 @@ namespace MorrowRim.Kwama
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{
 			Map map = (Map)parms.target;
-			Thing targetNest = GetSpawnedNests(map).Where(x=> !x.Position.Fogged(x.Map)).RandomElement();
+			Thing targetNest = GetSpawnedNests(map).Where(x => !x.Position.Fogged(x.Map)).RandomElement();
 			//Thing t = InfestationUtility.SpawnTunnels(Mathf.Max(GenMath.RoundRandom(parms.points / 220f), 1), map, false, false, null);
 			spawnInsectoids(targetNest, map, parms);
 			base.SendStandardLetter(parms, targetNest);

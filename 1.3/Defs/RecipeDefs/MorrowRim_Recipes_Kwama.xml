@@ -30,7 +30,7 @@
 		  </thingDefs>
 		</fixedIngredientFilter>
 		<products>
-		  <MorrowRim_ScribJelly>6</MorrowRim_ScribJelly>
+		  <MorrowRim_ScribJelly>3</MorrowRim_ScribJelly>
 		</products>
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>MorrowRim_AshCuisine</researchPrerequisite>

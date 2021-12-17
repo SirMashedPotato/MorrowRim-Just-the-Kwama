@@ -5,7 +5,7 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    class JobGiver_MineRandom : ThinkNode_JobGiver
+	class JobGiver_MineRandom : ThinkNode_JobGiver
 	{
 		// Token: 0x06002ED7 RID: 11991 RVA: 0x00107C20 File Offset: 0x00105E20
 		protected override Job TryGiveJob(Pawn pawn)

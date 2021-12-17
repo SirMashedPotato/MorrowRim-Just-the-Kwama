@@ -9,9 +9,9 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    [StaticConstructorOnStartup]
-    public class KwamaTunnelSpawner : ThingWithComps
-    {
+	[StaticConstructorOnStartup]
+	public class KwamaTunnelSpawner : ThingWithComps
+	{
 		// Token: 0x06004C9D RID: 19613 RVA: 0x0019AD60 File Offset: 0x00198F60
 		public static void ResetStaticData()
 		{
@@ -21,7 +21,7 @@ namespace MorrowRim.Kwama
 			filthTypes.Add(RimWorld.ThingDefOf.Filth_Dirt);
 			filthTypes.Add(RimWorld.ThingDefOf.Filth_RubbleRock);
 		}
-		
+
 		// Token: 0x06004C9E RID: 19614 RVA: 0x0019ADB4 File Offset: 0x00198FB4
 		public override void ExposeData()
 		{

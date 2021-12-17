@@ -8,8 +8,8 @@ using System.Linq;
 
 namespace MorrowRim.Kwama
 {
-    public class KwamaNest : ThingWithComps
-    {
+	public class KwamaNest : ThingWithComps
+	{
 		// Token: 0x17000D9F RID: 3487
 		// (get) Token: 0x06004CF0 RID: 19696 RVA: 0x0019C896 File Offset: 0x0019AA96
 		public CompCanBeDormant CompDormant
@@ -234,8 +234,8 @@ namespace MorrowRim.Kwama
 			{
 				Pawn pawn;
 				int index = PawnKindDefOf.MorrowRim_KwamaWorker.lifeStages.Count - 1;
-				pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(PawnKindDefOf.MorrowRim_KwamaWorker, lord.faction, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, 
-					false, true, true, true, false, false, false, false, 0f, 0f, null, 1f, null, null, null, null, null, new float?(PawnKindDefOf.MorrowRim_KwamaWorker.race.race.lifeStageAges[index].minAge), null, null, 
+				pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(PawnKindDefOf.MorrowRim_KwamaWorker, lord.faction, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f,
+					false, true, true, true, false, false, false, false, 0f, 0f, null, 1f, null, null, null, null, null, new float?(PawnKindDefOf.MorrowRim_KwamaWorker.race.race.lifeStageAges[index].minAge), null, null,
 					null, null, null, null, null, false, false, false));
 				this.PawnSpawner.spawnedPawns.Add(pawn);
 				GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(this.Position, this.Map, PawnSpawnRadius, null), this.Map, WipeMode.Vanish);

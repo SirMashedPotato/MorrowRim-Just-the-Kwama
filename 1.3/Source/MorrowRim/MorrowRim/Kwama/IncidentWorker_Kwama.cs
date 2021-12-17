@@ -5,19 +5,19 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    class IncidentWorker_Kwama : IncidentWorker
-    {
+	class IncidentWorker_Kwama : IncidentWorker
+	{
 		// Token: 0x06003B70 RID: 15216 RVA: 0x001392FC File Offset: 0x001374FC
 		protected override bool CanFireNowSub(IncidentParms parms)
 		{
 			Map map = (Map)parms.target;
 			IntVec3 intVec;
 			if (FactionUtility.DefaultFactionFrom(FactionDefOf.MorrowRim_Kwama) == null)
-            {
+			{
 				return false;
-            }
-			return ModSettings_Utility.MorrowRim_SettingEnableKwamaNestEmerging() && base.CanFireNowSub(parms) && 
-				KwamaNestUtility.TotalSpawnedHivesCount(map) <= ModSettings_Utility.MorrowRim_SettingKwamaMaxNests() && InfestationCellFinder.TryFindCell(out intVec, map);
+			}
+			return ModSettings_Utility.MorrowRim_SettingEnableKwamaNestEmerging() && base.CanFireNowSub(parms) &&
+				KwamaNestUtility.TotalSpawnedHivesCount(map) < ModSettings_Utility.MorrowRim_SettingKwamaMaxNests() && InfestationCellFinder.TryFindCell(out intVec, map);
 		}
 
 		// Token: 0x06003B71 RID: 15217 RVA: 0x00139334 File Offset: 0x00137534
@@ -25,8 +25,8 @@ namespace MorrowRim.Kwama
 		{
 			Map map = (Map)parms.target;
 			Thing t = KwamaNestUtility.SpawnTunnels(Mathf.Max(GenMath.RoundRandom(parms.points / 220f), 1), map, false, null);
-			if(t != null)
-            {
+			if (t != null)
+			{
 				Find.LetterStack.ReceiveLetter("LetterLabelKwamaNestEmerges".Translate().CapitalizeFirst(), "LetterKwamaNestEmerges".Translate(), LetterDefOf.NeutralEvent, t, null, null);
 				Find.TickManager.slower.SignalForceNormalSpeedShort();
 				return true;

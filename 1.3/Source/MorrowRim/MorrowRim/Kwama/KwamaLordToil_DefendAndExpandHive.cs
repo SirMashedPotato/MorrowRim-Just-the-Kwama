@@ -5,8 +5,8 @@ using Verse;
 
 namespace MorrowRim.Kwama
 {
-    class KwamaLordToil_DefendAndExpandHive : KwamaLordToil_HiveRelated
-    {
+	class KwamaLordToil_DefendAndExpandHive : KwamaLordToil_HiveRelated
+	{
 		// Token: 0x060031E4 RID: 12772 RVA: 0x0011525C File Offset: 0x0011345C
 		public override void UpdateAllDuties()
 		{

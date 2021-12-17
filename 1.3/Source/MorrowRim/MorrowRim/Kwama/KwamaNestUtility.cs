@@ -6,8 +6,8 @@ using System.Linq;
 
 namespace MorrowRim.Kwama
 {
-    public static class KwamaNestUtility
-    {
+	public static class KwamaNestUtility
+	{
 		// Token: 0x06004D03 RID: 19715 RVA: 0x0019CC51 File Offset: 0x0019AE51
 		public static int TotalSpawnedHivesCount(Map map)
 		{
@@ -15,7 +15,7 @@ namespace MorrowRim.Kwama
 		}
 		public static int TotalSpawnedHivesCount_NotFogged(Map map)
 		{
-			return map.listerThings.ThingsOfDef(ThingDefOf.MorrowRim_KwamaNest).ToArray().Where(x=> !x.Position.Fogged(map)).Count();
+			return map.listerThings.ThingsOfDef(ThingDefOf.MorrowRim_KwamaNest).ToArray().Where(x => !x.Position.Fogged(map)).Count();
 		}
 
 		// Token: 0x06004D04 RID: 19716 RVA: 0x0019CC68 File Offset: 0x0019AE68
@@ -69,7 +69,7 @@ namespace MorrowRim.Kwama
 				return null;
 			}
 			int attempts = 1;
-			while (ModSettings_Utility.MorrowRim_SettingForceKwamaNatural() && (!loc.GetTerrain(map).affordances.Contains(TerrainAffordanceDefOf.SmoothableStone) && !loc.GetTerrain(map).affordances.Contains(TerrainAffordanceDefOf.Diggable)))
+			while (ModSettings_Utility.MorrowRim_SettingForceKwamaNatural() && (!loc.GetTerrain(map).affordances.Contains(RimWorld.TerrainAffordanceDefOf.SmoothableStone) && !loc.GetTerrain(map).affordances.Contains(RimWorld.TerrainAffordanceDefOf.Diggable)))
 			{
 				if (!InfestationCellFinder.TryFindCell(out loc, map) || attempts > 5)
 				{

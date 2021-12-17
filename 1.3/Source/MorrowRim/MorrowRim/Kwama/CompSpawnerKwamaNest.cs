@@ -5,8 +5,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class CompSpawnerKwamaNest : ThingComp
-    {
+	public class CompSpawnerKwamaNest : ThingComp
+	{
 		// Token: 0x17000E8F RID: 3727
 		// (get) Token: 0x06005194 RID: 20884 RVA: 0x001B423B File Offset: 0x001B243B
 		private CompProperties_SpawnerKwamaNest Props
@@ -19,11 +19,12 @@ namespace MorrowRim.Kwama
 
 		// Token: 0x17000E90 RID: 3728
 		// (get) Token: 0x06005195 RID: 20885 RVA: 0x001B4248 File Offset: 0x001B2448
-		private bool CanSpawnChildHive
+		public bool CanSpawnChildHive
 		{
 			get
 			{
-				return this.canSpawnHives && KwamaNestUtility.TotalSpawnedHivesCount(this.parent.Map) <= ModSettings_Utility.MorrowRim_SettingKwamaMaxNests();
+				return this.canSpawnHives && ModSettings_Utility.MorrowRim_SettingKwamaNestReproducing()
+					&& KwamaNestUtility.TotalSpawnedHivesCount(this.parent.Map) < ModSettings_Utility.MorrowRim_SettingKwamaMaxNests();
 			}
 		}
 
@@ -51,7 +52,7 @@ namespace MorrowRim.Kwama
 				KwamaNest t;
 				if (this.TrySpawnChildHive(false, out t))
 				{
-					Messages.Message("MessageHiveReproduced".Translate(), t, MessageTypeDefOf.NegativeEvent, true);
+					Messages.Message("MorrowRim_KwamaNestExpands".Translate(), t, MessageTypeDefOf.NeutralEvent, true);
 					return;
 				}
 				this.CalculateNextHiveSpawnTick();
@@ -162,7 +163,7 @@ namespace MorrowRim.Kwama
 			{
 				return false;
 			}
-			if (ModSettings_Utility.MorrowRim_SettingForceKwamaNatural() && (!c.GetTerrain(map).affordances.Contains(TerrainAffordanceDefOf.SmoothableStone) && !c.GetTerrain(map).affordances.Contains(TerrainAffordanceDefOf.Diggable)))
+			if (ModSettings_Utility.MorrowRim_SettingForceKwamaNatural() && (!c.GetTerrain(map).affordances.Contains(RimWorld.TerrainAffordanceDefOf.SmoothableStone) && !c.GetTerrain(map).affordances.Contains(RimWorld.TerrainAffordanceDefOf.Diggable)))
 			{
 				return false;
 			}

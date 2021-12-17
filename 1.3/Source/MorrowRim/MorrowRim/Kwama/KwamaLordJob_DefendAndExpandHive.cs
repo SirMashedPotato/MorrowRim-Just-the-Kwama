@@ -5,8 +5,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class KwamaLordJob_DefendAndExpandHive : LordJob
-    {
+	public class KwamaLordJob_DefendAndExpandHive : LordJob
+	{
 		// Token: 0x170008E6 RID: 2278
 		// (get) Token: 0x060030FA RID: 12538 RVA: 0x00010226 File Offset: 0x0000E426
 		public override bool CanBlockHostileVisitors

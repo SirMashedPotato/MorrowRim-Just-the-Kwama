@@ -6,7 +6,7 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class GenStep_KwamaNest : GenStep
+	public class GenStep_KwamaNest : GenStep
 	{
 		// Token: 0x17000AEF RID: 2799
 		// (get) Token: 0x06003D3F RID: 15679 RVA: 0x00141D23 File Offset: 0x0013FF23

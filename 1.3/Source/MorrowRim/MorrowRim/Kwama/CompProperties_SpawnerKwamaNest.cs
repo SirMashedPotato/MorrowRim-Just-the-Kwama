@@ -4,8 +4,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class CompProperties_SpawnerKwamaNest : CompProperties
-    {
+	public class CompProperties_SpawnerKwamaNest : CompProperties
+	{
 		public CompProperties_SpawnerKwamaNest()
 		{
 			this.compClass = typeof(CompSpawnerKwamaNest);

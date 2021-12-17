@@ -5,8 +5,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class KwamaJobGiver_MaintainHives : JobGiver_AIFightEnemies
-    {
+	public class KwamaJobGiver_MaintainHives : JobGiver_AIFightEnemies
+	{
 		// Token: 0x06002D6F RID: 11631 RVA: 0x000FF36E File Offset: 0x000FD56E
 		public override ThinkNode DeepCopy(bool resolve = true)
 		{

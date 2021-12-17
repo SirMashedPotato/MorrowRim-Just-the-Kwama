@@ -10,7 +10,7 @@
 				<li Class="ThinkNode_ChancePerHour_Constant">
 				  <mtbHours>1.5</mtbHours>
 				  <subNodes>
-					<!-- grunt -->
+					<!-- worker -->
 						<li Class="ThinkNode_ConditionalPawnKind">
 							<pawnKind>MorrowRim_KwamaWorker</pawnKind>
 							<subNodes>

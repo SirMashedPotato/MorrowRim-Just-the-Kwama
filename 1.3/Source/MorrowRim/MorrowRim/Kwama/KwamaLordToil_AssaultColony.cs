@@ -6,8 +6,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    public class KwamaLordToil_AssaultColony : LordToil
-    {
+	public class KwamaLordToil_AssaultColony : LordToil
+	{
 		// Token: 0x17000918 RID: 2328
 		// (get) Token: 0x060031D0 RID: 12752 RVA: 0x000101AD File Offset: 0x0000E3AD
 		public override bool ForceHighStoryDanger
@@ -44,13 +44,13 @@ namespace MorrowRim.Kwama
 		// Token: 0x060031D4 RID: 12756 RVA: 0x00114DD0 File Offset: 0x00112FD0
 		public override void UpdateAllDuties()
 		{
-			for (int i = 0; i < this.lord.ownedPawns.Count; i++)
+			if (lord.faction.RelationKindWith(Faction.OfPlayer) != FactionRelationKind.Hostile && this.lord.ownedPawns != null && !this.lord.ownedPawns[0].Position.Fogged(this.Map))
 			{
-				this.lord.ownedPawns[i].mindState.duty = new PawnDuty(DutyDefOf.KwamaAssaultColony);
-				this.lord.ownedPawns[i].mindState.duty.attackDownedIfStarving = this.attackDownedIfStarving;
-			}
-			if (lord.faction.RelationKindWith(Faction.OfPlayer) != FactionRelationKind.Hostile)
-			{
+				for (int i = 0; i < this.lord.ownedPawns.Count; i++)
+				{
+					this.lord.ownedPawns[i].mindState.duty = new PawnDuty(DutyDefOf.KwamaAssaultColony);
+					this.lord.ownedPawns[i].mindState.duty.attackDownedIfStarving = this.attackDownedIfStarving;
+				}
 				Faction.OfPlayer.SetRelationDirect(lord.faction, FactionRelationKind.Hostile, false, "Nest threatened");
 				Find.LetterStack.ReceiveLetter("LetterLabelKwamaNestThreatened".Translate().CapitalizeFirst(), "LetterKwamaNestThreatened".Translate(), LetterDefOf.NegativeEvent, null, null, null);
 			}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>MorrowRim_KwamaEgg</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "Make_Kibble"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>MorrowRim_FungalMash</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "Make_Kibble"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>MorrowRim_FungalMash</li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -6,8 +6,8 @@ using RimWorld;
 
 namespace MorrowRim.Kwama
 {
-    class KwamaLordToil_HiveRelatedData : LordToilData
-    {
+	class KwamaLordToil_HiveRelatedData : LordToilData
+	{
 		// Token: 0x06003205 RID: 12805 RVA: 0x00115CB8 File Offset: 0x00113EB8
 		public override void ExposeData()
 		{

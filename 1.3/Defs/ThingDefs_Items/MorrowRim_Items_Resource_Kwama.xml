@@ -78,7 +78,7 @@
 
 	<!-- Fungal mash -->
 
-	<ThingDef ParentName="OrganicProductBase">
+	<ThingDef ParentName="RoughPlantBase">
 		<defName>MorrowRim_FungalMash</defName>
 		<label>fungal mash</label>
 		<description>A variety of slightly digested fungus, gathered from deep underground by a kwama forager. It is very likely that some, if not all, of the fungus is unsafe for human consumption.</description>
@@ -101,13 +101,14 @@
 			<rotDestroys>true</rotDestroys>
 		  </li>
 		</comps>
+		<thingCategories>
+		  <li>PlantMatter</li>
+		  <li>Foods</li>
+		</thingCategories>
 		<ingestible>
 		  <preferability>DesperateOnlyForHumanlikes</preferability>
-		  <foodType>AnimalProduct, VegetableOrFruit</foodType>
+		  <foodType>VegetableOrFruit</foodType>
 		</ingestible>
-		<thingCategories>
-		  <li>AnimalProductRaw</li>
-		</thingCategories>
 	</ThingDef>
 
 </Defs>

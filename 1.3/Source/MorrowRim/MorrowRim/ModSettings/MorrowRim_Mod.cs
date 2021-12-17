@@ -69,6 +69,12 @@ namespace MorrowRim
             listing_Standard.CheckboxLabeled("MorrowRim_SettingKwamaEnableGen".Translate(), ref settings.MorrowRim_SettingKwamaEnableGen);
             listing_Standard.Gap();
 
+            listing_Standard.CheckboxLabeled("MorrowRim_SettingKwamaNestReproducing".Translate(), ref settings.MorrowRim_SettingKwamaNestReproducing);
+            listing_Standard.Gap();
+
+            listing_Standard.CheckboxLabeled("MorrowRim_SettingKwamaMining".Translate(), ref settings.MorrowRim_SettingKwamaMining);
+            listing_Standard.Gap();
+
             listing_Standard.CheckboxLabeled("MorrowRim_SettingEnablePredatorAvoidKwama".Translate(), ref settings.MorrowRim_SettingEnablePredatorAvoidKwama);
             listing_Standard.Gap();
 

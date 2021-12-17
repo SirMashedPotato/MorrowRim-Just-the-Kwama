@@ -11,6 +11,8 @@
 	
 	<LetterLabelKwamaNestEmerges>kwama nest expands</LetterLabelKwamaNestEmerges>
 	<LetterKwamaNestEmerges>A kwama nest is expanding into a nearby cave. They will remain peaceful, unless threatened.</LetterKwamaNestEmerges>
+	
+	<MorrowRim_KwamaNestExpands>A nearby kwama nest has expanded</MorrowRim_KwamaNestExpands>
 
 
 	<MorrowRim_SettingForceKwamaNatural>Force kwama nests to spawn on natural floors.</MorrowRim_SettingForceKwamaNatural>
@@ -18,7 +20,10 @@
 	<MorrowRim_SettingKwamaMinDistance>The maximum calculated distance from a kwama egg mine for kwama nests to generate on map creation.</MorrowRim_SettingKwamaMinDistance>
 	<MorrowRim_SettingKwamaEnableGen>Enable kwama nests generating on map creation, if distance to egg mine is satisfied.</MorrowRim_SettingKwamaEnableGen>
 	<MorrowRim_SettingEnablePredatorAvoidKwama>Prevent predators from hunting kwama that belong to a kwama nest.</MorrowRim_SettingEnablePredatorAvoidKwama>
-	<MorrowRim_SettingKwamaEnableTrojanHostile>Enable kwama nests automatically turning hositle when a trojan infestation occurs.</MorrowRim_SettingKwamaEnableTrojanHostile>
+	<MorrowRim_SettingKwamaEnableTrojanHostile>Enable kwama nests automatically turning hostile when a trojan infestation occurs.</MorrowRim_SettingKwamaEnableTrojanHostile>
+	<MorrowRim_SettingKwamaNestReproducing>Enable kwama nests creating other kwama nests, given certain criteria are met.</MorrowRim_SettingKwamaNestReproducing>
+	<MorrowRim_SettingKwamaMining>Enable kwama workers mining natural stone.</MorrowRim_SettingKwamaMining>
+	
 	<MorrowRim_SettingEnableKwamaNestEmerging>Enable the kwama nest emerges incident.</MorrowRim_SettingEnableKwamaNestEmerging>
 	<MorrowRim_SettingEnableKwamaTrojanInfestation>Enable the trojan infestation incident.</MorrowRim_SettingEnableKwamaTrojanInfestation>
 
