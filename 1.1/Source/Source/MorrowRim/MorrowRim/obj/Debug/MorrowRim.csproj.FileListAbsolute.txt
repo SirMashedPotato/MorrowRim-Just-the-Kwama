@@ -1,7 +1,0 @@
-C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Assemblies\MorrowRim.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csprojAssemblyReference.cache
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Source\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csprojAssemblyReference.cache
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Source\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Source\Assemblies\MorrowRim.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Assemblies\MorrowRim.dll

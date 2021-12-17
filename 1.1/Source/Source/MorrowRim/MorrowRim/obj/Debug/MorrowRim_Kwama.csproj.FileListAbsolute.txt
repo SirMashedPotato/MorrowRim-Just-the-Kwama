@@ -1,3 +1,0 @@
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Assemblies\MorrowRim_Kwama.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Source\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim_Kwama.dll
-C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\Source\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim_Kwama.csprojAssemblyReference.cache
