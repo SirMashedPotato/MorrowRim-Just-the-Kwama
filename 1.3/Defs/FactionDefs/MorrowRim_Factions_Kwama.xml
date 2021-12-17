@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef>
+		<defName>MorrowRim_Kwama</defName>
+		<label>kwama nests</label>
+		<description>A network of kwama nests found in deep tunnels. They will occasionally burrow to the surface to expand their nests. Some of these surface entrances have been turned into egg mines by the locals, though many are now entirely unreachable.</description>
+		<pawnSingular>kwama</pawnSingular>
+		<pawnsPlural>kwama</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<fixedName>Kwama nests</fixedName>
+		<settlementNameMaker>MorrowRim_NamerEggMine</settlementNameMaker>
+		<factionIconPath>UI/KwamaSettlement</factionIconPath>
+		<raidCommonalityFromPointsCurve>
+		  <points>
+			<li>(0, 0)</li>
+		  </points>
+		</raidCommonalityFromPointsCurve>
+		<raidLootValueFromPointsCurve>
+		  <points>
+			<li>(0, 0)</li>
+		  </points>
+		</raidLootValueFromPointsCurve>
+		<humanlikeFaction>false</humanlikeFaction>
+		<hidden>false</hidden>
+		<autoFlee>false</autoFlee>
+		<canUseAvoidGrid>false</canUseAvoidGrid>
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<allowedArrivalTemperatureRange>0~45</allowedArrivalTemperatureRange>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>90</configurationListOrderPriority>
+		
+		<!-- -->
+		<techLevel>Animal</techLevel>
+		<settlementGenerationWeight>0.8</settlementGenerationWeight>
+		
+		<colorSpectrum>
+		  <li>(1, 0.6, 0.0)</li>
+		  <li>(1, 0.7, 0.2)</li>
+		</colorSpectrum>
+		
+		<maxPawnCostPerTotalPointsCurve>
+		  <points>
+			<li>(0,35)</li>
+			<li>(10, 50)</li>
+			<li>(10, 100)</li>
+		  </points>
+		</maxPawnCostPerTotalPointsCurve>
+		
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<MorrowRim_KwamaForager>1</MorrowRim_KwamaForager>
+				</options>
+			</li>
+		</pawnGroupMakers>
+
+	</FactionDef>
+
+</Defs>

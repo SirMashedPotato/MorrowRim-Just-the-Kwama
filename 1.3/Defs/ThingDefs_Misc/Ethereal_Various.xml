@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>KwamaTunnelSpawner</defName>
+    <label>tunnel</label>
+    <thingClass>MorrowRim.Kwama.KwamaTunnelSpawner</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <alwaysFlee>true</alwaysFlee>
+  </ThingDef>
+
+</Defs>

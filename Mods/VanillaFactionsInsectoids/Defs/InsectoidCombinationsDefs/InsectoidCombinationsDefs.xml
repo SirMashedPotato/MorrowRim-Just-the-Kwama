@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<InsectoidBioengineering.InsectoidCombinationDef>
+		<defName>MorrowRim_InsectoidCombination0</defName>
+		<genomes>
+			<li>MorrowRim_KwamaGenome</li>
+			<li>None</li>
+			<li>None</li>
+		</genomes>	
+		<result>
+			<li>MorrowRim_KwamaScrib</li>
+		</result>				
+	</InsectoidBioengineering.InsectoidCombinationDef>
+	
+	<InsectoidBioengineering.InsectoidCombinationDef>
+		<defName>MorrowRim_InsectoidCombination1</defName>
+		<genomes>
+			<li>MorrowRim_KwamaGenome</li>
+			<li>VFEI_DroneGenome</li>
+			<li>None</li>
+		</genomes>	
+		<result>
+			<li>MorrowRim_KwamaForager</li>
+		</result>				
+	</InsectoidBioengineering.InsectoidCombinationDef>
+	
+	<InsectoidBioengineering.InsectoidCombinationDef>
+		<defName>MorrowRim_InsectoidCombination2</defName>
+		<genomes>
+			<li>MorrowRim_KwamaGenome</li>
+			<li>VFEI_DroneGenome</li>
+			<li>VFEI_DroneGenome</li>
+		</genomes>	
+		<result>
+			<li>MorrowRim_KwamaWorker</li>
+		</result>				
+	</InsectoidBioengineering.InsectoidCombinationDef>
+	
+	<InsectoidBioengineering.InsectoidCombinationDef>
+		<defName>MorrowRim_InsectoidCombination3</defName>
+		<genomes>
+			<li>MorrowRim_KwamaGenome</li>
+			<li>MorrowRim_KwamaGenome</li>
+			<li>VFEI_WarriorGenome</li>
+		</genomes>	
+		<result>
+			<li>MorrowRim_KwamaWarrior</li>
+		</result>				
+	</InsectoidBioengineering.InsectoidCombinationDef>
+
+</Defs>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- kwama egg -->
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>MorrowRim_KwamaEgg</defName>
+		<label>kwama egg</label>
+		<description>A kwama egg. Once kwama nests were farmed by Dunmer for these eggs. Now the nests are becoming increasingly rare, likely due to the growing insectoid infestation. Due to this kwama eggs are mostly acquired from offworld traders. Rather nutritious and long lasting.</description>
+		<graphicData>
+		  <texPath>MorrowRim/Items/Resources/KwamaEgg</texPath>
+		  <drawSize>1.0</drawSize>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>25</stackLimit>
+		<statBases>
+		  <MarketValue>14</MarketValue>
+		  <Mass>0.1</Mass>
+		  <Nutrition>0.08</Nutrition>
+		  <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+		  <li Class="CompProperties_Rottable">
+			<daysToRotStart>100</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		  </li>
+		</comps>
+		<ingestible>
+		  <preferability>RawBad</preferability>
+		  <foodType>AnimalProduct</foodType>
+		</ingestible>
+		<thingCategories>
+		  <li>AnimalProductRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>AshlandCommon</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Scrib jelly -->
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>MorrowRim_ScribJelly</defName>
+		<label>scrib jelly</label>
+		<description>A jelly like substance produced by crushing a dead scrib. While not particularly tasty, it is perfectly safe to be eaten raw and is rather nutritious.\nCan be refined with muck to produce herbal medicine.</description>
+		<graphicData>
+		  <texPath>MorrowRim/Items/Resources/ScribJelly</texPath>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+		  <drawSize>(0.7)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+		  <MarketValue>2.5</MarketValue>
+		  <Mass>0.045</Mass>
+		  <MaxHitPoints>60</MaxHitPoints>
+		  <Flammability>0.2</Flammability>
+		  <Nutrition>0.4</Nutrition>
+		  <FoodPoisonChanceFixedHuman>0.0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+		  <li Class="CompProperties_Rottable">
+			<daysToRotStart>6</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		  </li>
+		</comps>
+		<ingestible>
+		  <tasteThought>AteInsectMeatDirect</tasteThought>
+		  <preferability>RawBad</preferability>
+		  <foodType>AnimalProduct</foodType>
+		</ingestible>
+		<thingCategories>
+		  <li>AnimalProductRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>AshlandCommon</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Fungal mash -->
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>MorrowRim_FungalMash</defName>
+		<label>fungal mash</label>
+		<description>A variety of slightly digested fungus, gathered from deep underground by a kwama forager. It is very likely that some, if not all, of the fungus is unsafe for human consumption.</description>
+		<graphicData>
+		  <texPath>MorrowRim/Items/Resources/MorrowRim_FungalMash</texPath>
+		  <drawSize>0.8</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+		  <MarketValue>1.0</MarketValue>
+		  <Mass>0.045</Mass>
+		  <MaxHitPoints>60</MaxHitPoints>
+		  <Flammability>0.2</Flammability>
+		  <Nutrition>0.1</Nutrition>
+		  <FoodPoisonChanceFixedHuman>0.9</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+		  <li Class="CompProperties_Rottable">
+			<daysToRotStart>14</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		  </li>
+		</comps>
+		<ingestible>
+		  <preferability>RawBad</preferability>
+		  <foodType>AnimalProduct, VegetableOrFruit</foodType>
+		</ingestible>
+		<thingCategories>
+		  <li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

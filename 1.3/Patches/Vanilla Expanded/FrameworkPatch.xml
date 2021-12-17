@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- adding in some custom animal behaviour from the framework -->
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="MorrowRim_KwamaForager"]/comps</xpath>
+					<value>
+						<li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+							<customThingToDig>						
+								<li>RawFungus</li>			
+								<li>RawFungus</li>			
+								<li>RawFungus</li>			
+								<li>MorrowRim_FungalMash</li>			
+								<li>MorrowRim_FungalMash</li>			
+							</customThingToDig>
+							<customAmountToDig>				
+								<li>1</li>
+								<li>3</li>
+								<li>5</li>		
+								<li>3</li>		
+								<li>5</li>	
+							</customAmountToDig>
+							<ticksToDig>60000</ticksToDig>
+							<spawnForbidden>true</spawnForbidden>
+						</li>
+						<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+							<customThingToDig>MorrowRim_FungalMash</customThingToDig>
+							<customAmountToDig>5</customAmountToDig>
+							<digAnywayEveryXTicks>true</digAnywayEveryXTicks>
+							<spawnForbidden>true</spawnForbidden>
+						</li>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

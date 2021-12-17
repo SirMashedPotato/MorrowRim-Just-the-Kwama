@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>MorrowRim_NamerEggMine</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[EggMine]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>EggMine->KwamaNames/EggMines</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+	
+</Defs>

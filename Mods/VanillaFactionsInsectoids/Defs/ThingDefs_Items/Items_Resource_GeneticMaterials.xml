@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="VFEI_GeneticsBase">
+		<defName>MorrowRim_KwamaGenome</defName>
+		<label>kwama genetic material</label>
+		<statBases>
+		  <MarketValue>100</MarketValue>
+		</statBases>
+		<description>A vial of genetic material extracted from a kwama.\n\nKwama genetic material is not viable in all combinations, and it won't combine with Royal Genome at all.</description>
+		<graphicData>
+		  <texPath>Things/Item/GenomeIcons/MorrowRim_KwamaGenome</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

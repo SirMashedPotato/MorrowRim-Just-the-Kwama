@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef ParentName="Bite">
+		<defName>MorrowRim_ParalyticBite</defName>
+		<label>paralytic bite</label>
+		<additionalHediffs>
+		  <li>
+			<hediff>MorrowRim_Paralysis</hediff>
+			<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+		  </li>
+		</additionalHediffs>
+	</DamageDef>
+
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Incubator: Genome Lists -->	
+
+	<MorrowRim_KwamaGenome_InsertFirstGenome>First genome: Kwama</MorrowRim_KwamaGenome_InsertFirstGenome>
+	
+	<MorrowRim_KwamaGenome_InsertSecondGenome>Second genome: Kwama</MorrowRim_KwamaGenome_InsertSecondGenome>
+	
+	<MorrowRim_KwamaGenome_InsertThirdGenome>Third genome: Kwama</MorrowRim_KwamaGenome_InsertThirdGenome>
+	
+	<MorrowRim_KwamaGenome>Kwama Genome</MorrowRim_KwamaGenome>
+
+</LanguageData>

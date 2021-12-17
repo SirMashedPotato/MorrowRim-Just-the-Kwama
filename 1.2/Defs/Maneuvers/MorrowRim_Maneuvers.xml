@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Paralytic bite -->
+	<ManeuverDef>
+		<defName>MorrowRim_ParalyticBite</defName>
+		<requiredCapacity>MorrowRim_ParalyticBite</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>MorrowRim_ParalyticBite</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	
+</Defs>

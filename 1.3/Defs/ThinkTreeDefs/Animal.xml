@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThinkTreeDef>
+		<defName>MorrowRim_KwamaWorkerMine</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalHasFaction">
+			<subNodes>
+				<li Class="ThinkNode_ChancePerHour_Constant">
+				  <mtbHours>1.5</mtbHours>
+				  <subNodes>
+					<!-- grunt -->
+						<li Class="ThinkNode_ConditionalPawnKind">
+							<pawnKind>MorrowRim_KwamaWorker</pawnKind>
+							<subNodes>
+								<li Class="ThinkNode_ConditionalRequireCapacities">
+								  <requiredCapacities>
+									<li>Manipulation</li>
+								  </requiredCapacities>
+								  <subNodes>
+									<li Class="ThinkNode_ConditionalTrainableCompleted">
+										<trainable>Obedience</trainable>
+										<subNodes>
+											<li Class="ThinkNode_Tagger">
+												<tagToGive>TrainedAnimalBehavior</tagToGive>
+												<subNodes>
+													<li Class="MorrowRim.JobGiver_Mine" />
+												</subNodes>
+											</li>
+										</subNodes>
+									</li>
+								  </subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+</Defs>

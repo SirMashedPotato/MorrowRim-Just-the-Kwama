@@ -1,0 +1,4 @@
+C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Assemblies\MorrowRim.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\MorrowRim\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csprojAssemblyReference.cache

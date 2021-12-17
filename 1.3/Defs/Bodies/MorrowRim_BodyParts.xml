@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- silt strider -->
+  
+  	<BodyPartDef>
+		<defName>MorrowRim_Insect_Arm</defName>
+		<label>arm</label>
+		<frostbiteVulnerability>8</frostbiteVulnerability>
+		<hitPoints>20</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+		  <li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<!-- Kwama -->
+	
+	<BodyPartDef>
+		<defName>MorrowRim_LeechBody</defName>
+		<label>body</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  <li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	
+
+</Defs>

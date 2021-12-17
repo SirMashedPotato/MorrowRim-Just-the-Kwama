@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+	<!-- kawma nests -->
+	<LetterLabelKwamaNestThreatened>kwama nest threatened</LetterLabelKwamaNestThreatened>
+	<LetterKwamaNestThreatened>A kwama nest has been threatened and will now defend their hive aggressively. They will return to a passive state when they feel safe.</LetterKwamaNestThreatened>
+	<LetterLabelKwamaNestCalmed>kwama nest calmed</LetterLabelKwamaNestCalmed>
+	<LetterKwamaNestCalmed>A kwama nest that had previously felt threatened has now returned to a calm state. It is safe to enter the nest again.</LetterKwamaNestCalmed>
+	
+	<LetterLabelKwamaNestEmerges>kwama nest expands</LetterLabelKwamaNestEmerges>
+	<LetterKwamaNestEmerges>A kwama nest is expanding into a nearby cave. They will remain peaceful, unless threatened.</LetterKwamaNestEmerges>
+
+
+	<MorrowRim_SettingForceKwamaNatural>Force kwama nests to spawn on natural floors.</MorrowRim_SettingForceKwamaNatural>
+	<MorrowRim_SettingKwamaMaxNests>The maximum number of kwama nests on any single map.</MorrowRim_SettingKwamaMaxNests>
+	<MorrowRim_SettingKwamaMinDistance>The maximum calculated distance from a kwama egg mine for kwama nests to generate on map creation.</MorrowRim_SettingKwamaMinDistance>
+	<MorrowRim_SettingKwamaEnableGen>Enable kwama nests generating on map creation, if distance to egg mine is satisfied.</MorrowRim_SettingKwamaEnableGen>
+	<MorrowRim_SettingEnablePredatorAvoidKwama>Prevent predators from hunting kwama that belong to a kwama nest.</MorrowRim_SettingEnablePredatorAvoidKwama>
+	<MorrowRim_SettingKwamaEnableTrojanHostile>Enable kwama nests automatically turning hositle when a trojan infestation occurs.</MorrowRim_SettingKwamaEnableTrojanHostile>
+	<MorrowRim_SettingEnableKwamaNestEmerging>Enable the kwama nest emerges incident.</MorrowRim_SettingEnableKwamaNestEmerging>
+	<MorrowRim_SettingEnableKwamaTrojanInfestation>Enable the trojan infestation incident.</MorrowRim_SettingEnableKwamaTrojanInfestation>
+
+	<!-- pages -->
+	<MorrowRim_PageKwama>Kwama settings</MorrowRim_PageKwama>
+	
+	<!-- Resets -->
+	<MorrowRim_ResetKwama>Reset kwama settings to default</MorrowRim_ResetKwama>
+	<MorrowRim_ResetDefault>Reset all settings to default</MorrowRim_ResetDefault>
+
+</LanguageData>

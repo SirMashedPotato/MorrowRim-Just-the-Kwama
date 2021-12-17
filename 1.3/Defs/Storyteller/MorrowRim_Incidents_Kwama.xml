@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>MorrowRim_KwamaNestExpands</defName>
+    <label>kwama nest expands</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>MorrowRim.Kwama.IncidentWorker_Kwama</workerClass>
+    <baseChance>1.5</baseChance>
+    <minRefireDays>10</minRefireDays>
+    <category>Misc</category>
+    <pointsScaleable>false</pointsScaleable>
+  </IncidentDef>	
+  
+  <IncidentDef>
+    <defName>MorrowRim_TrojanInfestation</defName>
+    <label>trojan: Infestation</label>
+	<letterLabel>trojan: Infestation</letterLabel>
+	<letterText>Your colonists hear strange sounds emerging from a nearby kwama nest. The area outside the entrance is about to be overrun with insectoids.\n\nBeware - the kwama are about to become highly aggressive. If the insectoids emerge victorious, they will likely set their eyes on other targets</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>MorrowRim.Kwama.IncidentWorker_TrojanInfestation</workerClass>
+    <baseChance>1.5</baseChance>
+    <minRefireDays>10</minRefireDays>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+	<minDifficulty>1</minDifficulty>
+	<minThreatPoints>400</minThreatPoints>
+  </IncidentDef>
+
+</Defs>
