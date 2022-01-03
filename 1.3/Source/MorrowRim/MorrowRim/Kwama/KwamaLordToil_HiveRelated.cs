@@ -5,7 +5,7 @@ using Verse.AI;
 using Verse.AI.Group;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	public abstract class KwamaLordToil_HiveRelated : LordToil
 	{

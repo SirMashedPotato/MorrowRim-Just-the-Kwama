@@ -3,7 +3,7 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	class IncidentWorker_Kwama : IncidentWorker
 	{

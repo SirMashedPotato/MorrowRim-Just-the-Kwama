@@ -7,7 +7,7 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
-    <workerClass>MorrowRim.Kwama.IncidentWorker_Kwama</workerClass>
+    <workerClass>MorrowRim_Kwama.IncidentWorker_Kwama</workerClass>
     <baseChance>1.5</baseChance>
     <minRefireDays>10</minRefireDays>
     <category>Misc</category>
@@ -23,7 +23,7 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
-    <workerClass>MorrowRim.Kwama.IncidentWorker_TrojanInfestation</workerClass>
+    <workerClass>MorrowRim_Kwama.IncidentWorker_TrojanInfestation</workerClass>
     <baseChance>1.5</baseChance>
     <minRefireDays>10</minRefireDays>
     <category>ThreatBig</category>

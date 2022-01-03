@@ -4,7 +4,7 @@ using System.Linq;
 using Verse;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	public class GenStep_KwamaNest : GenStep
 	{

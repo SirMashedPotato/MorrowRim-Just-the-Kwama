@@ -7,8 +7,8 @@
     <ProjectGuid>{392A88C3-916C-4228-9C59-4FFA29D715E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MorrowRim</RootNamespace>
-    <AssemblyName>MorrowRim</AssemblyName>
+    <RootNamespace>MorrowRim_Kwama</RootNamespace>
+    <AssemblyName>MorrowRim_Kwama</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

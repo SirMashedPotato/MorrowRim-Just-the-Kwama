@@ -28,38 +28,38 @@
     <defName>KwamaDefendAndExpandHive</defName>
     <thinkNode Class="ThinkNode_Priority">
       <subNodes>
-        <li Class="MorrowRim.Kwama.KwamaJobGiver_HiveDefense">
+        <li Class="MorrowRim_Kwama.KwamaJobGiver_HiveDefense">
           <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
           <targetAcquireRadius>30</targetAcquireRadius>
           <chaseTarget>false</chaseTarget>
         </li>
-		<li Class="MorrowRim.Kwama.KwamaThinkNode_ConditionalPawnKindDef">
+		<li Class="MorrowRim_Kwama.KwamaThinkNode_ConditionalPawnKindDef">
           <subNodes>
 			<li Class="ThinkNode_ChancePerHour_Constant">
 			  <mtbHours>2.5</mtbHours>
 			  <subNodes>
-				<li Class="MorrowRim.Kwama.KwamaJobGiver_MaintainHives" />
+				<li Class="MorrowRim_Kwama.KwamaJobGiver_MaintainHives" />
 			  </subNodes>
 			</li>
 		  </subNodes>
 		</li>
 		
-		<li Class="MorrowRim.Kwama.KwamaThinkNode_ConditionalPawnKindDef">
+		<li Class="MorrowRim_Kwama.KwamaThinkNode_ConditionalPawnKindDef">
           <subNodes>
-			<li Class="MorrowRim.Kwama.KwamaJobGiver_MaintainHives">
+			<li Class="MorrowRim_Kwama.KwamaJobGiver_MaintainHives">
 			  <onlyIfDamagingState>true</onlyIfDamagingState>
 			</li>
 		  </subNodes>
 		</li>
         <!--<li Class="ThinkNode_ConditionalBodySize">
           <min>0.7</min>-->
-		  <li Class="MorrowRim.Kwama.KwamaThinkNode_ConditionalMiningEnabled">
+		  <li Class="MorrowRim_Kwama.KwamaThinkNode_ConditionalMiningEnabled">
           <subNodes>
-            <li Class="MorrowRim.Kwama.KwamaThinkNode_ConditionalHiveCanReproduce">
+            <li Class="MorrowRim_Kwama.KwamaThinkNode_ConditionalHiveCanReproduce">
               <subNodes>
                 <li Class="ThinkNode_ChancePerHour_InsectDigChance">
                   <subNodes>
-                    <li Class="MorrowRim.Kwama.JobGiver_MineRandom" />
+                    <li Class="MorrowRim_Kwama.JobGiver_MineRandom" />
                   </subNodes>
                 </li>
               </subNodes>
@@ -78,7 +78,7 @@
 								<li>Manipulation</li>
 							</requiredCapacities>
 							<subNodes>
-								<li Class="MorrowRim.Kwama.JobGiver_CleanHive" />
+								<li Class="MorrowRim_Kwama.JobGiver_CleanHive" />
 							</subNodes>
 						</li>
 					</subNodes>
@@ -97,7 +97,7 @@
             </li>
           </subNodes>
         </li>
-        <li Class="MorrowRim.Kwama.KwamaJobGiver_WanderHive">
+        <li Class="MorrowRim_Kwama.KwamaJobGiver_WanderHive">
           <maxDanger>Deadly</maxDanger>
         </li>
       </subNodes>
@@ -108,12 +108,12 @@
     <defName>KwamaDefendHiveAggressively</defName>
     <thinkNode Class="ThinkNode_Priority">
       <subNodes>
-        <li Class="MorrowRim.Kwama.KwamaJobGiver_HiveDefense">
+        <li Class="MorrowRim_Kwama.KwamaJobGiver_HiveDefense">
           <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
           <targetAcquireRadius>50</targetAcquireRadius>
           <chaseTarget>false</chaseTarget>
         </li>
-        <li Class="MorrowRim.Kwama.KwamaJobGiver_WanderHive">
+        <li Class="MorrowRim_Kwama.KwamaJobGiver_WanderHive">
           <maxDanger>Deadly</maxDanger>
         </li>
       </subNodes>

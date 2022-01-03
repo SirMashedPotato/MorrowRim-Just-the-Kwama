@@ -25,7 +25,7 @@
 											<li Class="ThinkNode_Tagger">
 												<tagToGive>TrainedAnimalBehavior</tagToGive>
 												<subNodes>
-													<li Class="MorrowRim.JobGiver_Mine" />
+													<li Class="MorrowRim_Kwama.JobGiver_Mine" />
 												</subNodes>
 											</li>
 										</subNodes>

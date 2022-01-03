@@ -4,7 +4,7 @@
   <ThingDef ParentName="EtherealThingBase">
     <defName>KwamaTunnelSpawner</defName>
     <label>tunnel</label>
-    <thingClass>MorrowRim.Kwama.KwamaTunnelSpawner</thingClass>
+    <thingClass>MorrowRim_Kwama.KwamaTunnelSpawner</thingClass>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
     <alwaysFlee>true</alwaysFlee>

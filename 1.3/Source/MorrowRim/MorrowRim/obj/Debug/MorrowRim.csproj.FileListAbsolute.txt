@@ -10,7 +10,7 @@ C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\1
 C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csprojAssemblyReference.cache
 C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csproj.CoreCompileInputs.cache
 C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Just the Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.dll
-J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Assemblies\MorrowRim.dll
 J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csprojAssemblyReference.cache
 J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.csproj.CoreCompileInputs.cache
-J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim.dll
+J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Assemblies\MorrowRim_Kwama.dll
+J:\Modding\Github\MorrowRim-Just-the-Kwama\1.3\Source\MorrowRim\MorrowRim\obj\Debug\MorrowRim_Kwama.dll

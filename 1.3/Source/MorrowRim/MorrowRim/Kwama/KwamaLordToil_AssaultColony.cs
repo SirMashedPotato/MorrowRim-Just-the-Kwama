@@ -4,7 +4,7 @@ using Verse.AI;
 using Verse.AI.Group;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	public class KwamaLordToil_AssaultColony : LordToil
 	{

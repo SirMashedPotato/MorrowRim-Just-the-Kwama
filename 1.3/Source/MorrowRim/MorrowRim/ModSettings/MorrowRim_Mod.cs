@@ -2,7 +2,7 @@
 using Verse;
 using System;
 
-namespace MorrowRim
+namespace MorrowRim_Kwama
 {
     class MorrowRim_Mod : Mod
     {

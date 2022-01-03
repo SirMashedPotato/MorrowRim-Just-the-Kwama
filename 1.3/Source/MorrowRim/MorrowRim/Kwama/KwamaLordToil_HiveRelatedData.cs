@@ -4,7 +4,7 @@ using Verse;
 using Verse.AI.Group;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	class KwamaLordToil_HiveRelatedData : LordToilData
 	{

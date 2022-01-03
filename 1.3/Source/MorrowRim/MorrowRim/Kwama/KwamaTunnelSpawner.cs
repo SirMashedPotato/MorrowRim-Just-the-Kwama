@@ -7,7 +7,7 @@ using Verse.AI.Group;
 using Verse.Sound;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	[StaticConstructorOnStartup]
 	public class KwamaTunnelSpawner : ThingWithComps

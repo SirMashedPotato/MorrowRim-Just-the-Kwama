@@ -1,6 +1,6 @@
 ﻿using RimWorld;
 
-namespace MorrowRim
+namespace MorrowRim_Kwama
 {
     [DefOf]
     public static class FactionDefOf

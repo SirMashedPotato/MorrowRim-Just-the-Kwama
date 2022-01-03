@@ -3,7 +3,7 @@ using Verse.AI;
 using RimWorld;
 using Verse;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	class KwamaLordToil_DefendHiveAggressively : KwamaLordToil_HiveRelated
 	{

@@ -3,7 +3,7 @@ using Verse;
 using Verse.AI;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	public class KwamaThinkNode_ConditionalPawnKindDef : ThinkNode_Conditional
 	{

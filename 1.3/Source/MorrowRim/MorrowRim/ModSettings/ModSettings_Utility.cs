@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace MorrowRim
+namespace MorrowRim_Kwama
 {
     class ModSettings_Utility
     {

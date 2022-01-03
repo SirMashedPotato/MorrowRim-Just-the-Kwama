@@ -4,7 +4,7 @@ using Verse;
 using RimWorld;
 using System.Linq;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
 	public static class KwamaNestUtility
 	{

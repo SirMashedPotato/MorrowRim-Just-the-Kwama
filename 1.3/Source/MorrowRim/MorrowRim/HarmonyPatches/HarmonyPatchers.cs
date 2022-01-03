@@ -11,7 +11,7 @@ using Verse.AI.Group;
 using System.Text;
 using UnityEngine;
 
-namespace MorrowRim
+namespace MorrowRim_Kwama
 {
 
     //Setting the Harmony instance
@@ -53,7 +53,7 @@ namespace MorrowRim
                                                                                         //Log.Message("Checking for spawn chance of kwama nests, distance from nearest nest is: " + distance);
                 if (Rand.Range(0, distance + 1) <= ModSettings_Utility.MorrowRim_SettingKwamaMinDistance())
                 {
-                    Kwama.GenStep_KwamaNest kwamaNest = new Kwama.GenStep_KwamaNest();
+                    GenStep_KwamaNest kwamaNest = new GenStep_KwamaNest();
                     kwamaNest.Generate(map, parms);
                     return false;
                 }
@@ -249,8 +249,8 @@ namespace MorrowRim
             {
                 if (loc.GetThingList(map).Where(x => x.def == ThingDefOf.MorrowRim_KwamaNest).Any())
                 {
-                    Kwama.KwamaNest nest = loc.GetFirstThing(map, ThingDefOf.MorrowRim_KwamaNest) as Kwama.KwamaNest;
-                    nest.GetComp<CompSpawnerPawn>().Lord.ReceiveMemo(Kwama.KwamaNest.MemoInsectoids);
+                    KwamaNest nest = loc.GetFirstThing(map, ThingDefOf.MorrowRim_KwamaNest) as KwamaNest;
+                    nest.GetComp<CompSpawnerPawn>().Lord.ReceiveMemo(KwamaNest.MemoInsectoids);
                 }
             }
         }

@@ -5,7 +5,7 @@
     <defName>MorrowRim_KwamaNest</defName>
     <label>kwama nest entrance</label>
     <description>The entrance to deeper portions of a kwama nest. Kwama workers will occasionally deposit raw fungus and kwama egg sacs around the entrance. The kwama will only attack if they feel the nest is threatened, otherwise they will remain peaceful.\n\nKwama will become highly aggressive if their nest is threatened. They will return to a calm state after they feel the threat is gone.</description>
-    <thingClass>MorrowRim.Kwama.KwamaNest</thingClass>
+    <thingClass>MorrowRim_Kwama.KwamaNest</thingClass>
     <graphicData>
       <texPath>MorrowRim/Buildings/KwamaNest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -42,7 +42,7 @@
           <li>MorrowRim_KwamaWorker</li>
           <li>MorrowRim_KwamaWarrior</li>
         </spawnablePawnKinds>
-        <lordJob>MorrowRim.Kwama.KwamaLordJob_DefendAndExpandHive</lordJob>
+        <lordJob>MorrowRim_Kwama.KwamaLordJob_DefendAndExpandHive</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>
         <initialPawnsPoints>200</initialPawnsPoints>
         <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
@@ -50,7 +50,7 @@
       <li Class="CompProperties_SelfhealHitpoints">
         <ticksPerHeal>6000</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
       </li>
-      <li Class="MorrowRim.Kwama.CompProperties_SpawnerKwamaNest" />
+      <li Class="MorrowRim_Kwama.CompProperties_SpawnerKwamaNest" />
 	  <li Class="CompProperties_Spawner">
         <thingToSpawn>MorrowRim_FungalMash</thingToSpawn>
         <spawnCount>75</spawnCount>

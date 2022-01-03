@@ -4,7 +4,7 @@ using Verse;
 using Verse.AI;
 using RimWorld;
 
-namespace MorrowRim
+namespace MorrowRim_Kwama
 {
 	class JobGiver_Mine : ThinkNode_JobGiver
 	{

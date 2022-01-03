@@ -2,7 +2,7 @@
 using Verse.AI;
 using RimWorld;
 
-namespace MorrowRim.Kwama
+namespace MorrowRim_Kwama
 {
     [DefOf]
     public static class DutyDefOf
