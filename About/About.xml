@@ -26,6 +26,7 @@
 		<li>Orion.FactionDiscovery</li>
 		<li>SirMashedPotato.MorrowRim.JustTheAnimals</li>
 		<li>OskarPotocki.VFE.Insectoid</li>
+		<li>vanillaexpanded.outposts</li>
 	</loadAfter>
 	<incompatibleWith>
       <li>SirMashedPotato.MorrowRim</li>

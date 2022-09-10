@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<WorldObjectDef ParentName="OutpostBase">
+		<defName>MorrowRim_Outpost_KwamaEgg</defName>
+		<label>kwama egg outpost</label>
+		<description>Places a temporary, autonomously-led camp that specializes in collecting kwama eggs, can only be placed in close proximity to a kwama egg mine. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</description>
+		<worldObjectClass>MorrowRim_KwamaOutpost.Outpost_KwamaEgg</worldObjectClass>
+		<expandingIconTexture>WorldObjects/MorrowRim_OutpostKwamaEgg</expandingIconTexture>
+		<modExtensions>
+			<li Class="Outposts.OutpostExtension">
+				<ProvidedFood>Pemmican</ProvidedFood>
+				<RequiredSkills>
+					<Mining>5</Mining>
+					<Construction>5</Construction>
+					<Animals>5</Animals>
+				</RequiredSkills>
+				<ResultOptions>
+					<li>
+						<AmountsPerSkills>
+							<Animals>10</Animals>
+						</AmountsPerSkills>
+						<Thing>MorrowRim_KwamaEgg</Thing>
+					</li>
+				</ResultOptions>
+			</li>
+			<li Class="KCSG.CustomGenOption">
+				<useStructureLayout>True</useStructureLayout>
+				<chooseFromlayouts>
+					<li>Outpost_Struct_Mining</li>
+				</chooseFromlayouts>
+				<fullClear>true</fullClear>
+			</li>
+		</modExtensions>
+	</WorldObjectDef>
+</Defs>
