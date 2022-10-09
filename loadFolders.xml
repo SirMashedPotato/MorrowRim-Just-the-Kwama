@@ -16,4 +16,10 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid">Mods/VanillaFactionsInsectoids</li>	
 		<li IfModActive="vanillaexpanded.outposts">Mods/VanillaOutpostsExpanded</li>	
 	</v1.3>
+	<v1.4>
+		<li>Common</li>
+		<li>1.4</li>		
+		<li IfModActive="OskarPotocki.VFE.Insectoid">Mods/VanillaFactionsInsectoids</li>	
+		<li IfModActive="vanillaexpanded.outposts">Mods/VanillaOutpostsExpanded</li>	
+	</v1.4>
 </loadFolders>

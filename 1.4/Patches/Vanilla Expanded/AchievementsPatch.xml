@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>MorrowRim_AchievementsTab</defName>
+							<label>MorrowRim</label>
+						</AchievementsExpanded.AchievementTabDef>
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>MorrowRim_AchievementParalysed</defName>
+							<label>Mr Scrib is Not to be Underestimated</label>
+							<description>Have pawns be paralysed 15 times by scrib bites</description>
+							<bgtexPath>Achievements/MorrowRim_AchievementBackgroundAshlands</bgtexPath>
+							<tab>MorrowRim_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>MorrowRim_Paralysis</def>
+								<count>15</count>
+							</tracker>
+
+							<texPath>Achievements/MorrowRim_AchievementParalysed</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>MorrowRim_AchievementTrojanInfestation</defName>
+							<label>Not The Insects I Expected</label>
+							<description>Experience your first trojan infestation</description>
+							<bgtexPath>Achievements/MorrowRim_AchievementBackgroundAshlands</bgtexPath>
+							<tab>MorrowRim_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.IncidentTracker">
+								<def>MorrowRim_TrojanInfestation</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/MorrowRim_AchievementTrojanInfestation</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+			
+						<AchievementsExpanded.AchievementDef>
+							<defName>MorrowRim_AchievementCollectKwamaEgg</defName>
+							<label>Pupal of Therana</label>
+							<description>Obtain 300 kwama eggs</description>
+							<bgtexPath>Achievements/MorrowRim_AchievementBackgroundAshlands</bgtexPath>
+							<tab>MorrowRim_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>MorrowRim_KwamaEgg</def>
+								<count>300</count>
+							</tracker>
+
+							<texPath>Achievements/MorrowRim_AchievementCollectKwamaEgg</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+			
+						<AchievementsExpanded.AchievementDef>
+							<defName>MorrowRim_AchievementKwamaSlayer</defName>
+							<label>How You Shouldn't Manage an Egg Mine</label>
+							<description>Slay 100 Kwama</description>
+							<bgtexPath>Achievements/MorrowRim_AchievementBackgroundAshlands</bgtexPath>
+							<tab>MorrowRim_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<factionDefs>
+									<li>MorrowRim_Kwama</li>
+								</factionDefs>
+								<count>100</count>
+							</tracker>
+
+							<texPath>Achievements/MorrowRim_AchievementKwamaSlayer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>MorrowRim_AchievementSellKwamaEgg</defName>
+							<label>A Peculiar Mining Operation</label>
+							<description>Earn 10,000 silver by selling kwama eggs</description>
+							<bgtexPath>Achievements/MorrowRim_AchievementBackgroundAshlands</bgtexPath>
+							<tab>MorrowRim_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.TraderTracker">
+								<def>MorrowRim_KwamaEgg</def>
+								<worth>10000</worth>
+							</tracker>
+
+							<texPath>Achievements/MorrowRim_AchievementSellKwamaEgg</texPath>
+							<points>50</points>
+						</AchievementsExpanded.AchievementDef>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
