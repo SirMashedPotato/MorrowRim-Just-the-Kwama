@@ -1,0 +1,8 @@
+J:\Modding\Github\MorrowRim\Mods\VanillaOutpostsExpanded\Assemblies\MorrowRim_KwamaOutpost.dll
+J:\Modding\Github\MorrowRim\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.csprojAssemblyReference.cache
+J:\Modding\Github\MorrowRim\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.csproj.CoreCompileInputs.cache
+J:\Modding\Github\MorrowRim\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.dll
+J:\Modding\Github\MorrowRim-Just-the-Kwama\Mods\VanillaOutpostsExpanded\Assemblies\MorrowRim_KwamaOutpost.dll
+J:\Modding\Github\MorrowRim-Just-the-Kwama\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.csproj.AssemblyReference.cache
+J:\Modding\Github\MorrowRim-Just-the-Kwama\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.csproj.CoreCompileInputs.cache
+J:\Modding\Github\MorrowRim-Just-the-Kwama\Mods\VanillaOutpostsExpanded\Source\MorrowRim_KwamaOutpost\MorrowRim_KwamaOutpost\obj\Debug\MorrowRim_KwamaOutpost.dll
